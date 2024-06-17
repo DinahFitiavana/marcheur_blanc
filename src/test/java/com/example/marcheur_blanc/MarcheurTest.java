@@ -45,7 +45,7 @@ public class MarcheurTest {
         assertNotNull(trajet);
         assertFalse(trajet.getTrajet().isEmpty());
         assertEquals(HEI, trajet.getTrajet().get(0));
-        assertEquals(ESTI, trajet.getTrajet().get(trajet.getTrajet().size() - 1));
+        assertEquals(ESTI,marcheur.getPositionActuelle());
         System.out.println("Trajet parcouru :");
         for (Lieu lieu : trajet.getTrajet()) {
             System.out.println(lieu.getNom());

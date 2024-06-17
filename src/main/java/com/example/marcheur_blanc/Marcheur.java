@@ -13,7 +13,7 @@ public class Marcheur {
     private Lieu positionActuelle;
     private Random random;
 
-    public Marcheur(Lieu positionActuelle, Random random) {
+    public Marcheur(Lieu positionActuelle) {
         this.positionActuelle = positionActuelle;
         this.random = new Random();
     }
